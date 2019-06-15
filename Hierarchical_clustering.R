@@ -13,4 +13,4 @@ model_hc = hclust(dist(B),method = "complete")
 CV_hc = cutree(model_hc,h=3)
 C = data.frame(C,CV_hc)
 plot(model_hc)
-
+#--------------------------Hi Commit-------------------#
