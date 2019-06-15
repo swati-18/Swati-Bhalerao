@@ -20,6 +20,7 @@ hist(A1$RPM,col = 1:5)
 hist(A1$RPM,col = 1)
 hist(A1$RPM,col = c(2,2,2,2,9))
 hist(A1$RPM,col = c(2,2,2,2,3))
+### We can put multiple graphs in a single plot by setting some graphical parameters with the help of par() function. and Graphical parameter "mfrow" can be used to specify the number of subplot we need.
 par(mfrow=c(2,2)) # We can put multiple graphs in a single plot by setting some graphical parameters with the help of par() function. and Graphical parameter "mfrow" can be used to specify the number of subplot we need.
 hist(A1$RPM,col = c(2,2,2,2,3))
 hist(A1$RPM,col = c(2,2,2,2,3))
